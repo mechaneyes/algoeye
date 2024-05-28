@@ -9,38 +9,20 @@ export default function Ray() {
   return (
     <div className="vcard">
       <div className="vcard__outer">
-        <div className={styles.container2}>
-          <div className={styles.background}>
+        <div className="vcard__inner">
+          <div className="hero">
             <img
-              className={styles.dvz7vMjpegIcon}
-              alt=""
+              className="hero__image"
+              alt="hero image"
               src="images/hero.jpg"
             />
           </div>
           <div className={styles.background1}>
             <div className={styles.container3}>
-              <div className={styles.container4}>
-                <div className={styles.container5}>
-                  <img
-                    className={styles.imagebackgroundbordershadowIcon}
-                    alt=""
-                    src="images/initials.png"
-                  />
-                </div>
-                <div className={styles.margin}>
-                  <div className={styles.container6}>
-                    <div className={styles.heading3}>
-                      <div className={styles.rayWeitzenberg}>
-                        Ray Weitzenberg
-                      </div>
-                    </div>
-                    <div className={styles.heading4}>
-                      <div className={styles.benevolentCreator}>
-                        Benevolent Creator
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="title">
+                <img alt="ray weitzeberg logo" src="images/initials.png" />
+                <h1>Ray Weitzenberg</h1>
+                <h2>Benevolent Creator</h2>
               </div>
               <div className={styles.container7}>
                 <div className={styles.container8}>

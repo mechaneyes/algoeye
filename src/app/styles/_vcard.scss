@@ -188,6 +188,29 @@
         }
       }
     }
+
+    &--gallery {
+        padding: 0;
+        border: 0;
+
+        img {
+            border: 0;
+        }
+    }
+  }
+
+  .main-container {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #374793;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.937rem 0.937rem 1.875rem;
+    box-sizing: border-box;
+    min-height: 25rem;
+    margin-top: -1.875rem;
   }
 
   .title {

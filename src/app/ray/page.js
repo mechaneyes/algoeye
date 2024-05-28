@@ -1,6 +1,5 @@
 "use client";
 
-import styles from "@/app/styles/index.module.css";
 import "@/app/styles/styles.scss";
 
 import SaveVCard from "@/app/components/vcard";
@@ -17,7 +16,7 @@ export default function Ray() {
               src="images/hero.jpg"
             />
           </div>
-          <div className={styles.background1}>
+          <div className="main-container">
             {/* // ————————————————————————————————————o————————————————————————————————————o contact section -->
                   // ————————————————————————————————————o contact section —>
               //  */}
@@ -35,7 +34,7 @@ export default function Ray() {
                   <img alt="sms icon: text bubble" src="images/sms.svg" />
                 </div>
                 <div className="connect-icons__item">
-                  <a href="mailto:ray@mechaneyes.com" className={styles.link2}>
+                  <a href="mailto:ray@mechaneyes.com">
                     <img
                       alt="email icon: envelope image"
                       src="images/mail.svg"
@@ -113,11 +112,7 @@ export default function Ray() {
                 />
                 <h2>Summary</h2>
               </div>
-              <div className={styles.container24}>
-                <div className={styles.div}>
-                  <p>Fusing Art and Technology to Inspire Delight and Wonder</p>
-                </div>
-              </div>
+              <p>Fusing Art and Technology to Inspire Delight and Wonder</p>
             </section>
 
             {/* // ————————————————————————————————————o————————————————————————————————————o location -->
@@ -189,98 +184,29 @@ export default function Ray() {
             {/* // ————————————————————————————————————o————————————————————————————————————o gallery -->
                   // ————————————————————————————————————o gallery —>
               //  */}
-            <section className="section">
-              <div className={styles.overlayshadow}>
-                <img
-                  className={styles.mechaneyesvialinkedingifIcon}
-                  alt=""
-                  src="images/mechaneyes.jpg"
-                />
-              </div>
-              <div className={styles.overlayshadow}>
-                <a
-                  href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdfce5dab1714404860/17144048601yp2t0.jpg"
-                  className={styles.link4}
-                >
-                  <img
-                    className={styles.yp2t0MjpgIcon}
-                    alt=""
-                    src="images/untitled.jpg"
-                  />
-                </a>
-              </div>
-              <div className={styles.overlayshadow}>
-                <a
-                  href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdec9bf2a1714404844/1714404844zgs2ob.jpg"
-                  className={styles.link4}
-                >
-                  <img
-                    className={styles.zgs2obMjpgIcon}
-                    alt=""
-                    src="images/willoughbyWinter.jpg"
-                  />
-                </a>
-              </div>
-              <div className={styles.overlayshadow}>
-                <a
-                  href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe7bb118c1714404987/1714404987008nxd.jpg"
-                  className={styles.link4}
-                >
-                  <img
-                    className={styles.nxdMjpgIcon}
-                    alt=""
-                    src="images/atlanticTerminal.jpg"
-                  />
-                </a>
-              </div>
-              <div className={styles.overlayshadow}>
-                <a
-                  href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdc9b35bc1714404809/1714404809pap0cd.jpg"
-                  className={styles.link4}
-                >
-                  <img
-                    className={styles.zgs2obMjpgIcon}
-                    alt=""
-                    src="images/pacificDesignCenter.jpg"
-                  />
-                </a>
-              </div>
-              <div className={styles.overlayshadow}>
-                <a
-                  href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe0e6e5fa1714404878/171440487845oogn.jpg"
-                  className={styles.link4}
-                >
-                  <img
-                    className={styles.zgs2obMjpgIcon}
-                    alt=""
-                    src="images/americanRiverVortex.jpg"
-                  />
-                </a>
-              </div>
-              <div className={styles.overlayshadow}>
-                <a
-                  href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe395fb351714404921/17144049212akgko.jpg"
-                  className={styles.link4}
-                >
-                  <img
-                    className={styles.akgkoMjpgIcon}
-                    alt=""
-                    src="images/noOrdinaryMonkey.jpg"
-                  />
-                </a>
-              </div>
-              <div className={styles.overlayshadow}>
-                <a
-                  href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fc1d11b30f1714405841/1714405841h86s10.jpg"
-                  className={styles.link4}
-                >
-                  <img
-                    className={styles.h86s10MjpgIcon}
-                    alt=""
-                    src="images/hetal.jpg"
-                  />
-                </a>
-              </div>
+            <section className="section section--gallery">
+              <img alt="" src="images/mechaneyes.jpg" />
+              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdfce5dab1714404860/17144048601yp2t0.jpg">
+                <img alt="" src="images/untitled.jpg" />
+              </a>
+              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdec9bf2a1714404844/1714404844zgs2ob.jpg">
+                <img alt="" src="images/willoughbyWinter.jpg" />
+              </a>
+              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe7bb118c1714404987/1714404987008nxd.jpg">
+                <img alt="" src="images/atlanticTerminal.jpg" />
+              </a>
+              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdc9b35bc1714404809/1714404809pap0cd.jpg">
+                <img alt="" src="images/pacificDesignCenter.jpg" />
+              </a>
+              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe0e6e5fa1714404878/171440487845oogn.jpg">
+                <img alt="" src="images/americanRiverVortex.jpg" />
+              </a>
+              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe395fb351714404921/17144049212akgko.jpg">
+                <img alt="" src="images/noOrdinaryMonkey.jpg" />
+              </a>
+              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fc1d11b30f1714405841/1714405841h86s10.jpg">
+                <img alt="" src="images/hetal.jpg" />
+              </a>
             </section>
           </div>
         </div>

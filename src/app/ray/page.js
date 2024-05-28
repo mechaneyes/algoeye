@@ -48,7 +48,11 @@ export default function Ray() {
                   </a>
                 </div>
               </div>
-              <div className={styles.container13}>
+
+              {/* // ————————————————————————————————————o————————————————————————————————————o gallery -->
+                  // ————————————————————————————————————o gallery —>
+              //  */}
+              <section className={styles.container13}>
                 <div className={styles.overlayshadow}>
                   <img
                     className={styles.mechaneyesvialinkedingifIcon}
@@ -140,17 +144,18 @@ export default function Ray() {
                     />
                   </a>
                 </div>
-              </div>
-              <div className={styles.backgroundbordershadow}>
-                <div className={styles.background2}>
-                  <div className={styles.container14}>
-                    <img
-                      className={styles.icon}
-                      alt=""
-                      src="images/contact.svg"
-                    />
-                  </div>
-                  <div className={styles.contact}>Contact</div>
+              </section>
+
+              {/* // ————————————————————————————————————o————————————————————————————————————o contact section -->
+                  // ————————————————————————————————————o contact section —>
+              //  */}
+              <section className={styles.backgroundbordershadow}>
+                <div className="section-title">
+                  <img
+                    alt="contact icon: phone handset"
+                    src="images/contact.svg"
+                  />
+                  <h2>Contact</h2>
                 </div>
                 <div className={styles.container15}>
                   <div className={styles.list1}>
@@ -214,17 +219,18 @@ export default function Ray() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className={styles.backgroundbordershadow1}>
-                <div className={styles.background3}>
-                  <div className={styles.container14}>
-                    <img
-                      className={styles.icon}
-                      alt=""
-                      src="images/summary.svg"
-                    />
-                  </div>
-                  <div className={styles.summary}>Summary</div>
+              </section>
+
+              {/* // ————————————————————————————————————o————————————————————————————————————o summary -->
+                  // ————————————————————————————————————o summary —>
+              //  */}
+              <section className={styles.backgroundbordershadow1}>
+                <div className="section-title">
+                  <img
+                    alt="summary icon: speech bubble with 'i' inside"
+                    src="images/summary.svg"
+                  />
+                  <h2>Summary</h2>
                 </div>
                 <div className={styles.container24}>
                   <div className={styles.div}>
@@ -234,17 +240,15 @@ export default function Ray() {
                     <p className={styles.saveTo}>Wonder</p>
                   </div>
                 </div>
-              </div>
-              <div className={styles.backgroundbordershadow2}>
-                <div className={styles.background3}>
-                  <div className={styles.container14}>
-                    <img
-                      className={styles.icon3}
-                      alt=""
-                      src="images/location.svg"
-                    />
-                  </div>
-                  <div className={styles.location}>Location</div>
+              </section>
+
+              {/* // ————————————————————————————————————o————————————————————————————————————o location -->
+                  // ————————————————————————————————————o location —>
+              //  */}
+              <section className={styles.backgroundbordershadow2}>
+                <div className="section-title">
+                  <img className="location-icon" alt="location icon: map pin" src="images/location.svg" />
+                  <h2>Location</h2>
                 </div>
                 <div className={styles.container26}>
                   <div className={styles.list1}>
@@ -260,17 +264,15 @@ export default function Ray() {
                     </a>
                   </div>
                 </div>
-              </div>
-              <div className={styles.backgroundbordershadow3}>
-                <div className={styles.background3}>
-                  <div className={styles.container14}>
-                    <img
-                      className={styles.icon}
-                      alt=""
-                      src="images/webLinks.svg"
-                    />
-                  </div>
-                  <div className={styles.webLinks}>Web Links</div>
+              </section>
+
+              {/* // ————————————————————————————————————o————————————————————————————————————o links -->
+                  // ————————————————————————————————————o links —>
+              //  */}
+              <section className={styles.backgroundbordershadow3}>
+                <div className="section-title">
+                  <img alt="Links icon: globe icon" src="images/webLinks.svg" />
+                  <h2>Links</h2>
                 </div>
                 <div className={styles.container29}>
                   <div className={styles.list2}>
@@ -339,7 +341,7 @@ export default function Ray() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>

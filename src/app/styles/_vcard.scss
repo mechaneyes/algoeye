@@ -76,7 +76,7 @@
     align-items: flex-start;
     justify-content: center;
     gap: 0.5rem;
-     position: absolute;
+    position: absolute;
     top: 8.5rem;
     right: -0.937rem;
     left: -0.937rem;
@@ -99,6 +99,27 @@
         height: 1.125rem;
         overflow: hidden;
         flex-shrink: 0;
+      }
+    }
+  }
+
+  section {
+    .section-title {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5rem;
+      height: 2.5rem;
+      padding-left: 1.25rem;
+
+      img {
+        width: 18px;
+        height: 18px;
+        object-fit: cover;
+
+        &.location-icon {
+            width: 13px;
+        }
       }
     }
   }

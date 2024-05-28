@@ -24,68 +24,28 @@ export default function Ray() {
                 <h1>Ray Weitzenberg</h1>
                 <h2>Benevolent Creator</h2>
               </div>
-              <div className={styles.container7}>
-                <div className={styles.container8}>
-                  <div className={styles.list}>
-                    <div className={styles.itemmargin}>
-                      <div className={styles.item}>
-                        <div className={styles.link}>
-                          <div className={styles.container9}>
-                            <img
-                              className={styles.icon}
-                              alt=""
-                              src="images/phone.svg"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.itemmargin}>
-                      <div className={styles.item1}>
-                        <div className={styles.link}>
-                          <div className={styles.container9}>
-                            <img
-                              className={styles.icon1}
-                              alt=""
-                              src="images/sms.svg"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.itemmargin}>
-                      <div className={styles.item2}>
-                        <a
-                          href="mailto:ray@mechaneyes.com"
-                          className={styles.link2}
-                        >
-                          <div className={styles.container9}>
-                            <img
-                              className={styles.icon2}
-                              alt=""
-                              src="images/mail.svg"
-                            />
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div className={styles.itemmargin}>
-                      <div className={styles.item3}>
-                        <a
-                          href="https://www.google.com/maps/search/394+Myrtle+Ave%2C+%2399"
-                          className={styles.link2}
-                        >
-                          <div className={styles.container9}>
-                            <img
-                              className={styles.icon3}
-                              alt=""
-                              src="images/location.svg"
-                            />
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+              <div className="connect-icons">
+                <div className="connect-icons__item">
+                  <img alt="phone icon" src="images/phone.svg" />
+                </div>
+                <div className="connect-icons__item">
+                  <img alt="sms icon: text bubble" src="images/sms.svg" />
+                </div>
+                <div className="connect-icons__item">
+                  <a href="mailto:ray@mechaneyes.com" className={styles.link2}>
+                    <img
+                      alt="email icon: envelope image"
+                      src="images/mail.svg"
+                    />
+                  </a>
+                </div>
+                <div className="connect-icons__item">
+                  <a href="https://www.google.com/maps/search/394+Myrtle+Ave%2C+%2399">
+                    <img
+                      alt="location icon: map pin"
+                      src="images/location.svg"
+                    />
+                  </a>
                 </div>
               </div>
               <div className={styles.container13}>

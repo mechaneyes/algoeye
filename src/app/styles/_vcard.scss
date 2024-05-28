@@ -69,4 +69,37 @@
       }
     }
   }
+
+  .connect-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+     position: absolute;
+    top: 8.5rem;
+    right: -0.937rem;
+    left: -0.937rem;
+
+    &__item {
+      width: 2.625rem;
+      border-radius: 40px;
+      background-color: #e0ffff;
+      height: 2.625rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0.75rem 0.75rem 0.562rem;
+      box-sizing: border-box;
+
+      img {
+        width: 1.125rem;
+        position: relative;
+        height: 1.125rem;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+    }
+  }
 }

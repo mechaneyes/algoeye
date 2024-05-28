@@ -13,18 +13,13 @@
   padding: 0rem 5.181rem;
 }
 .icon {
-  width: 1.125rem;
-  position: relative;
-  height: 1.125rem;
-  overflow: hidden;
-  flex-shrink: 0;
 }
-.container9 {
+/* .container9 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-}
+} */
 .link {
   display: flex;
   flex-direction: row;
@@ -119,14 +114,6 @@
   padding: 0.75rem 0.937rem 0.562rem;
   box-sizing: border-box;
 }
-.list {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0rem 5.125rem;
-}
 .container8 {
   align-self: stretch;
   flex: 1;
@@ -140,16 +127,6 @@
   min-height: 0.063rem;
 }
 .container7 {
-  position: absolute;
-  width: calc(100% + 30px);
-  top: 9.287rem;
-  right: -0.937rem;
-  left: -0.937rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
 }
 .mechaneyesvialinkedingifIcon {
   align-self: stretch;

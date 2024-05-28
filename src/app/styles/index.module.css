@@ -367,22 +367,6 @@
   color: #fff;
 }
 .backgroundbordershadow {
-  position: absolute;
-  width: 100%;
-  top: 14.912rem;
-  right: 0rem;
-  left: 0rem;
-  box-shadow: 0px 0px 3px rgba(136, 136, 138, 0.23);
-  border-radius: 4px;
-  background-color: #fff;
-  border: 1px solid rgba(136, 136, 138, 0.1);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0.062rem;
-  font-size: 0.75rem;
 }
 .summary {
   position: absolute;

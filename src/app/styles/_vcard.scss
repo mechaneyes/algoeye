@@ -1,4 +1,8 @@
 .vcard {
+  * {
+    box-sizing: border-box;
+  }
+  
   h1 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -45,16 +49,55 @@
     }
   }
 
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid rgba(136, 136, 138, 0.1);
+    box-shadow: 0px 0px 3px rgba(136, 136, 138, 0.23);
+    padding: 0.062rem;
+    font-size: 0.75rem;
+
+    .section-title {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5rem;
+      height: 2.5rem;
+      padding-left: 1.25rem;
+
+      img {
+        width: 18px;
+        height: 18px;
+        object-fit: cover;
+
+        &.location-icon {
+          width: 13px;
+        }
+      }
+    }
+
+    &--headline {
+      margin-top: -3.5rem;
+      box-shadow: none;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
   .title {
-    position: absolute;
-    width: calc(100% + 30px);
-    top: -3.812rem;
-    right: -0.937rem;
-    left: -0.937rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 1.25rem;
     text-align: center;
     font-size: 1.5rem;
     color: #fff;
@@ -73,13 +116,11 @@
   .connect-icons {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    position: absolute;
-    top: 8.5rem;
-    right: -0.937rem;
-    left: -0.937rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
 
     &__item {
       width: 2.625rem;
@@ -99,27 +140,6 @@
         height: 1.125rem;
         overflow: hidden;
         flex-shrink: 0;
-      }
-    }
-  }
-
-  section {
-    .section-title {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 0.5rem;
-      height: 2.5rem;
-      padding-left: 1.25rem;
-
-      img {
-        width: 18px;
-        height: 18px;
-        object-fit: cover;
-
-        &.location-icon {
-            width: 13px;
-        }
       }
     }
   }

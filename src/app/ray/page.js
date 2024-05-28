@@ -21,7 +21,7 @@ export default function Ray() {
             {/* // ————————————————————————————————————o————————————————————————————————————o contact section -->
                   // ————————————————————————————————————o contact section —>
               //  */}
-            <section className="section section--headline">
+            <section className="section section--title">
               <div className="title">
                 <img alt="ray weitzeberg logo" src="images/initials.png" />
                 <h1>Ray Weitzenberg</h1>
@@ -56,62 +56,48 @@ export default function Ray() {
             {/* // ————————————————————————————————————o————————————————————————————————————o contact section -->
                   // ————————————————————————————————————o contact section —>
               //  */}
-            <section className="section">
-              <div className="section-title">
+            <section className="section section--contact">
+              <div className="section-header">
                 <img
                   alt="contact icon: phone handset"
                   src="images/contact.svg"
                 />
                 <h2>Contact</h2>
               </div>
-              <div className={styles.container15}>
-                <div className={styles.list1}>
-                  <div className={styles.item4}>
-                    <div className={styles.name}>Name</div>
-                    <div className={styles.container16}>
-                      <div className={styles.div}>Ray Weitzenberg</div>
-                    </div>
-                  </div>
-                  <div className={styles.item4}>
-                    <div className={styles.name}>Mobile</div>
-                    <div className={styles.container16}>
-                      <div className={styles.div}>7186822628</div>
-                    </div>
-                  </div>
-                  <div className={styles.item4}>
-                    <div className={styles.name}>Email</div>
-                    <div className={styles.container18}>
-                      <div className={styles.container9}>
-                        <a
-                          className={styles.raymechaneyescom}
-                          href="mailto:ray@mechaneyes.com"
-                          target="_blank"
-                        >
-                          ray@mechaneyes.com
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.item4}>
-                    <div className={styles.name}>Company</div>
-                    <div className={styles.container16}>
-                      <div className={styles.div}>Mechaneyes</div>
-                    </div>
-                  </div>
-                  <div className={styles.item4}>
-                    <div className={styles.name}>Employee ID</div>
-                    <div className={styles.container16}>
-                      <div className={styles.div}>303.808.909</div>
-                    </div>
-                  </div>
-                  <div className={styles.item9}>
-                    <div className={styles.name}>Department</div>
-                    <div className={styles.container16}>
-                      <div className={styles.div}>The Dancefloor</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <ul>
+                <li>
+                  <h5>Name</h5>
+                  <p>Ray Weitzenberg</p>
+                </li>
+                <li>
+                  <h5>Mobile</h5>
+                  <p>718.682.2628</p>
+                </li>
+                <li>
+                  <h5>Email</h5>
+                  <p>
+                    <a
+                      className={styles.raymechaneyescom}
+                      href="mailto:ray@mechaneyes.com"
+                      target="_blank"
+                    >
+                      ray@mechaneyes.com
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <h5>Company</h5>
+                  <p>Mechaneyes</p>
+                </li>
+                <li>
+                  <h5>Employee ID</h5>
+                  <p>303.808.909</p>
+                </li>
+                <li>
+                  <h5>Department</h5>
+                  <p>Art+Tech</p>
+                </li>
+              </ul>
               <div className={styles.link13}>
                 <SaveVCard />
                 <div className={styles.margin1}>
@@ -132,7 +118,7 @@ export default function Ray() {
                   // ————————————————————————————————————o summary —>
               //  */}
             <section className="section">
-              <div className="section-title">
+              <div className="section-header">
                 <img
                   alt="summary icon: speech bubble with 'i' inside"
                   src="images/summary.svg"
@@ -141,10 +127,7 @@ export default function Ray() {
               </div>
               <div className={styles.container24}>
                 <div className={styles.div}>
-                  <p className={styles.saveTo}>
-                    Fusing Art+Tech to Inspire Delight and
-                  </p>
-                  <p className={styles.saveTo}>Wonder</p>
+                  <p>Fusing Art and Technology to Inspire Delight and Wonder</p>
                 </div>
               </div>
             </section>
@@ -153,7 +136,7 @@ export default function Ray() {
                   // ————————————————————————————————————o location —>
               //  */}
             <section className="section">
-              <div className="section-title">
+              <div className="section-header">
                 <img
                   className="location-icon"
                   alt="location icon: map pin"
@@ -181,7 +164,7 @@ export default function Ray() {
                   // ————————————————————————————————————o links —>
               //  */}
             <section className="section">
-              <div className="section-title">
+              <div className="section-header">
                 <img alt="Links icon: globe icon" src="images/webLinks.svg" />
                 <h2>Links</h2>
               </div>

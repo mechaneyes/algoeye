@@ -248,16 +248,6 @@
   font-size: 0.875rem;
   color: #141a22;
 }
-.item4 {
-  align-self: stretch;
-  border-bottom: 1px solid #eceef7;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0.75rem 0rem 0.687rem;
-  gap: 0.062rem;
-}
 .div {
   align-self: stretch;
   position: relative;
@@ -287,13 +277,6 @@
   justify-content: flex-start;
   padding: 0.75rem 0rem 0.625rem;
   gap: 0.062rem;
-}
-.list1 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 .container15 {
   align-self: stretch;

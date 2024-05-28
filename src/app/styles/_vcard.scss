@@ -170,6 +170,24 @@
         color: #6c757d;
       }
     }
+
+    &--links {
+      ul {
+        width: 100%;
+        padding: 0.312rem 1.25rem 0.625rem;
+        list-style-type: none;
+      }
+
+      li {
+        width: 100%;
+        padding: 0.75rem 0rem 0.687rem;
+        border-bottom: 1px solid #eceef7;
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
   }
 
   .title {

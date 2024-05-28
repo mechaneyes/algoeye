@@ -146,78 +146,44 @@ export default function Ray() {
             {/* // ————————————————————————————————————o————————————————————————————————————o links -->
                   // ————————————————————————————————————o links —>
               //  */}
-            <section className="section">
+            <section className="section section--links">
               <div className="section-header">
                 <img alt="Links icon: globe icon" src="images/webLinks.svg" />
                 <h2>Links</h2>
               </div>
-              <div className={styles.container29}>
-                <div className={styles.list2}>
-                  <div className={styles.item10}>
-                    <div className={styles.list1}>
-                      <div className={styles.container9}>
-                        <a
-                          className={styles.raymechaneyescom}
-                          href="https://mechaneyes.com/"
-                          target="_blank"
-                        >
-                          Mechaneyes
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.item10}>
-                    <div className={styles.list1}>
-                      <div className={styles.container9}>
-                        <a
-                          className={styles.raymechaneyescom}
-                          href="https://bsky.app/profile/mechaneyes.bsky.social"
-                          target="_blank"
-                        >
-                          Bluesky
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.item10}>
-                    <div className={styles.list1}>
-                      <div className={styles.container9}>
-                        <a
-                          className={styles.raymechaneyescom}
-                          href="https://hypermute.com/@mechaneyes"
-                          target="_blank"
-                        >
-                          Mastodon
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.item10}>
-                    <div className={styles.list1}>
-                      <div className={styles.container9}>
-                        <a
-                          className={styles.raymechaneyescom}
-                          href="https://github.com/mechaneyes"
-                          target="_blank"
-                        >
-                          GitHub
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.item14}>
-                    <div className={styles.container9}>
-                      <a
-                        className={styles.raymechaneyescom}
-                        href="https://www.instagram.com/mechaneyes"
-                        target="_blank"
-                      >
-                        Effing Insta
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <ul>
+                <li>
+                  <a href="https://mechaneyes.com/" target="_blank">
+                    Mechaneyes
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://bsky.app/profile/mechaneyes.bsky.social"
+                    target="_blank"
+                  >
+                    Bluesky
+                  </a>
+                </li>
+                <li>
+                  <a href="https://hypermute.com/@mechaneyes" target="_blank">
+                    Mastodon
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/mechaneyes" target="_blank">
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/mechaneyes"
+                    target="_blank"
+                  >
+                    Effing Insta
+                  </a>
+                </li>
+              </ul>
             </section>
 
             {/* // ————————————————————————————————————o————————————————————————————————————o gallery -->

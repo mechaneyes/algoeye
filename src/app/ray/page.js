@@ -98,18 +98,13 @@ export default function Ray() {
                   <p>Art+Tech</p>
                 </li>
               </ul>
-              <div className={styles.link13}>
+              <div className="save-vcard">
                 <SaveVCard />
-                <div className={styles.margin1}>
-                  <div className={styles.overlay}>
-                    <div className={styles.container9}>
-                      <img
-                        className={styles.icon5}
-                        alt=""
-                        src="images/saveContacts.svg"
-                      />
-                    </div>
-                  </div>
+                <div className="save-vcard__icon">
+                  <img
+                    alt=""
+                    src="images/saveContacts.svg"
+                  />
                 </div>
               </div>
             </section>

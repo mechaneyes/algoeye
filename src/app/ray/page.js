@@ -76,11 +76,7 @@ export default function Ray() {
                 <li>
                   <h5>Email</h5>
                   <p>
-                    <a
-                      className={styles.raymechaneyescom}
-                      href="mailto:ray@mechaneyes.com"
-                      target="_blank"
-                    >
+                    <a href="mailto:ray@mechaneyes.com" target="_blank">
                       ray@mechaneyes.com
                     </a>
                   </p>
@@ -101,10 +97,7 @@ export default function Ray() {
               <div className="save-vcard">
                 <SaveVCard />
                 <div className="save-vcard__icon">
-                  <img
-                    alt=""
-                    src="images/saveContacts.svg"
-                  />
+                  <img alt="" src="images/saveContacts.svg" />
                 </div>
               </div>
             </section>
@@ -130,7 +123,7 @@ export default function Ray() {
             {/* // ————————————————————————————————————o————————————————————————————————————o location -->
                   // ————————————————————————————————————o location —>
               //  */}
-            <section className="section">
+            <section className="section section--location">
               <div className="section-header">
                 <img
                   className="location-icon"
@@ -139,19 +132,14 @@ export default function Ray() {
                 />
                 <h2>Location</h2>
               </div>
-              <div className={styles.container26}>
-                <div className={styles.list1}>
-                  <div className={styles.div}>394 Myrtle Ave, #99</div>
-                </div>
-                <div className={styles.link14}>
-                  <a
-                    className={styles.showOnMap}
-                    href="https://www.google.com/maps/search/394+Myrtle+Ave%2C+%2399"
-                    target="_blank"
-                  >
-                    Show on Map
-                  </a>
-                </div>
+              <p>394 Myrtle Ave, #99</p>
+              <div className="location-button">
+                <a
+                  href="https://www.google.com/maps/search/394+Myrtle+Ave%2C+%2399"
+                  target="_blank"
+                >
+                  Show on Map
+                </a>
               </div>
             </section>
 

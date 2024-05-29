@@ -148,7 +148,7 @@ export default function Ray() {
             <section className="section section--links">
               <div className="section-header">
                 <img alt="Links icon: globe icon" src="images/webLinks.svg" />
-                <h2>Links</h2>
+                <h2>My Digital Footprint</h2>
               </div>
               <ul>
                 <li>
@@ -179,7 +179,7 @@ export default function Ray() {
                     href="https://www.instagram.com/mechaneyes"
                     target="_blank"
                   >
-                    Instagoon
+                    Instagarbage <span className="italicize">(fuck zuck)</span>
                   </a>
                 </li>
               </ul>
@@ -189,7 +189,7 @@ export default function Ray() {
                   // ————————————————————————————————————o gallery —>
               //  */}
             <section className="section section--gallery">
-              <img alt="mechaneyes logo" src="images/mechaneyes.jpg" />
+              <img alt="mechaneyes logo" src="images/mechaneyes.gif" />
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdfce5dab1714404860/17144048601yp2t0.jpg">
                 <img alt="untitled" src="images/untitled.jpg" />
               </a>

@@ -1,8 +1,9 @@
 "use client";
 
-import "@/app/styles/styles.scss";
-
+import Image from "next/image";
 import SaveVCard from "@/app/components/vcard";
+
+import "@/app/styles/styles.scss";
 
 export default function Ray() {
   return (
@@ -189,46 +190,102 @@ export default function Ray() {
                   // ————————————————————————————————————o gallery —>
               //  */}
             <section className="section section--gallery">
-              <img alt="mechaneyes logo" src="images/mechaneyes.gif" />
-              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdfce5dab1714404860/17144048601yp2t0.jpg">
-                <img alt="untitled" src="images/untitled.jpg" />
-              </a>
-              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdec9bf2a1714404844/1714404844zgs2ob.jpg">
-                <img
-                  alt="tree branches covered in snow"
-                  src="images/willoughbyWinter.jpg"
-                />
-              </a>
-              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe7bb118c1714404987/1714404987008nxd.jpg">
-                <img
-                  alt="lined ceiling with fluorescent light tubes"
-                  src="images/atlanticTerminal.jpg"
-                />
-              </a>
-              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdc9b35bc1714404809/1714404809pap0cd.jpg">
-                <img
-                  alt="shapes decending down stairwell"
-                  src="images/pacificDesignCenter.jpg"
-                />
-              </a>
-              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe0e6e5fa1714404878/171440487845oogn.jpg">
-                <img
-                  alt="distorted image with river wrapping around person in canoe"
-                  src="images/americanRiverVortex.jpg"
-                />
-              </a>
-              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe395fb351714404921/17144049212akgko.jpg">
-                <img
-                  alt="dancer lit from behind by strobe light"
-                  src="images/noOrdinaryMonkey.jpg"
-                />
-              </a>
-              <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fc1d11b30f1714405841/1714405841h86s10.jpg">
-                <img
-                  alt="portrait of some woman named, hetal"
-                  src="images/hetal.jpg"
-                />
-              </a>
+              <Image
+                alt="mechaneyes logo"
+                src="/images/mechaneyes.gif"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
+              <Image
+                alt="untitled"
+                src="/images/untitled.jpg"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
+              <Image
+                alt="tree branches covered in snow"
+                src="/images/willoughbyWinter.jpg"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
+              <Image
+                alt="lined ceiling with fluorescent light tubes"
+                src="/images/atlanticTerminal.jpg"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
+              <Image
+                alt="shapes decending down stairwell"
+                src="/images/pacificDesignCenter.jpg"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
+              <Image
+                alt="distorted image with river wrapping around person in canoe"
+                src="/images/americanRiverVortex.jpg"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
+              <Image
+                alt="dancer lit from behind by strobe light"
+                src="/images/noOrdinaryMonkey.jpg"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
+              <Image
+                alt="portrait of some woman goes by the name, hetal"
+                src="/images/hetal.jpg"
+                sizes="100vw"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={500}
+                height={300}
+                quality={100}
+              />
             </section>
           </div>
         </div>

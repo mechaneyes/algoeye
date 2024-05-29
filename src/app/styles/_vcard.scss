@@ -151,6 +151,12 @@
       border: 0;
       background-color: transparent;
 
+      a {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+
       img {
         width: 100%;
         padding-bottom: 1.125rem;

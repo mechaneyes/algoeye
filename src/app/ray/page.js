@@ -11,10 +11,18 @@ export default function Ray() {
       <div className="vcard__outer">
         <div className="vcard__inner">
           <div className="hero">
-            <img
+            <Image
               className="hero__image"
               alt="hero image"
-              src="images/hero.jpg"
+              src="/images/hero.png"
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              width={500}
+              height={300}
+              quality={100}
             />
           </div>
           <div className="main-container">
@@ -23,7 +31,14 @@ export default function Ray() {
               //  */}
             <section className="section section--title">
               <div className="title">
-                <img alt="ray weitzeberg logo" src="images/initials.png" />
+                <Image
+                  className="hero__image"
+                  alt="ray weitzeberg logo"
+                  src="/images/initials.png"
+                  width={100}
+                  height={100}
+                  quality={100}
+                />
                 <h1>Ray Weitzenberg</h1>
                 <h3>Benevolent Creator</h3>
               </div>
@@ -53,16 +68,16 @@ export default function Ray() {
               </div>
             </section>
 
-            {/* // ————————————————————————————————————o————————————————————————————————————o contact section -->
-                  // ————————————————————————————————————o contact section —>
+            {/* // ————————————————————————————————————o————————————————————————————————————o connect section -->
+                  // ————————————————————————————————————o connect section —>
               //  */}
-            <section className="section section--contact">
+            <section className="section section--connect">
               <div className="section-header">
                 <img
-                  alt="contact icon: phone handset"
+                  alt="Connect icon: phone handset"
                   src="images/contact.svg"
                 />
-                <h2>Contact</h2>
+                <h2>Connect</h2>
               </div>
               <ul>
                 <li>
@@ -108,10 +123,10 @@ export default function Ray() {
             <section className="section">
               <div className="section-header">
                 <img
-                  alt="summary icon: speech bubble with 'i' inside"
+                  alt="Précis icon: speech bubble with 'i' inside"
                   src="images/summary.svg"
                 />
-                <h2>Summary</h2>
+                <h2>Précis</h2>
               </div>
               <p>
                 Fusing Art and Technology to
@@ -130,7 +145,7 @@ export default function Ray() {
                   alt="location icon: map pin"
                   src="images/location.svg"
                 />
-                <h2>Location</h2>
+                <h2>IRL</h2>
               </div>
               <p>394 Myrtle Ave, #99</p>
               <div className="location-button">
@@ -149,7 +164,7 @@ export default function Ray() {
             <section className="section section--links">
               <div className="section-header">
                 <img alt="Links icon: globe icon" src="images/webLinks.svg" />
-                <h2>My Digital Footprint</h2>
+                <h2>Digital Footprints</h2>
               </div>
               <ul>
                 <li>

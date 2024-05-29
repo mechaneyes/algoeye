@@ -24,7 +24,7 @@ export default function Ray() {
               <div className="title">
                 <img alt="ray weitzeberg logo" src="images/initials.png" />
                 <h1>Ray Weitzenberg</h1>
-                <h2>Benevolent Creator</h2>
+                <h3>Benevolent Creator</h3>
               </div>
               <div className="connect-icons">
                 <div className="connect-icons__item">
@@ -65,15 +65,15 @@ export default function Ray() {
               </div>
               <ul>
                 <li>
-                  <h5>Name</h5>
+                  <h4>Name</h4>
                   <p>Ray Weitzenberg</p>
                 </li>
                 <li>
-                  <h5>Mobile</h5>
+                  <h4>Mobile</h4>
                   <p>718.682.2628</p>
                 </li>
                 <li>
-                  <h5>Email</h5>
+                  <h4>Email</h4>
                   <p>
                     <a href="mailto:ray@mechaneyes.com" target="_blank">
                       ray@mechaneyes.com
@@ -81,15 +81,15 @@ export default function Ray() {
                   </p>
                 </li>
                 <li>
-                  <h5>Company</h5>
+                  <h4>Company</h4>
                   <p>Mechaneyes</p>
                 </li>
                 <li>
-                  <h5>Employee ID</h5>
+                  <h4>Employee ID</h4>
                   <p>303.808.909</p>
                 </li>
                 <li>
-                  <h5>Department</h5>
+                  <h4>Department</h4>
                   <p>Art+Tech</p>
                 </li>
               </ul>
@@ -112,7 +112,11 @@ export default function Ray() {
                 />
                 <h2>Summary</h2>
               </div>
-              <p>Fusing Art and Technology to Inspire Delight and Wonder</p>
+              <p>
+                Fusing Art and Technology to
+                <br />
+                Inspire Delight and Wonder
+              </p>
             </section>
 
             {/* // ————————————————————————————————————o————————————————————————————————————o location -->
@@ -175,7 +179,7 @@ export default function Ray() {
                     href="https://www.instagram.com/mechaneyes"
                     target="_blank"
                   >
-                    Effing Insta
+                    Instagoon
                   </a>
                 </li>
               </ul>
@@ -185,27 +189,45 @@ export default function Ray() {
                   // ————————————————————————————————————o gallery —>
               //  */}
             <section className="section section--gallery">
-              <img alt="" src="images/mechaneyes.jpg" />
+              <img alt="mechaneyes logo" src="images/mechaneyes.jpg" />
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdfce5dab1714404860/17144048601yp2t0.jpg">
-                <img alt="" src="images/untitled.jpg" />
+                <img alt="untitled" src="images/untitled.jpg" />
               </a>
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdec9bf2a1714404844/1714404844zgs2ob.jpg">
-                <img alt="" src="images/willoughbyWinter.jpg" />
+                <img
+                  alt="tree branches covered in snow"
+                  src="images/willoughbyWinter.jpg"
+                />
               </a>
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe7bb118c1714404987/1714404987008nxd.jpg">
-                <img alt="" src="images/atlanticTerminal.jpg" />
+                <img
+                  alt="lined ceiling with fluorescent light tubes"
+                  src="images/atlanticTerminal.jpg"
+                />
               </a>
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbdc9b35bc1714404809/1714404809pap0cd.jpg">
-                <img alt="" src="images/pacificDesignCenter.jpg" />
+                <img
+                  alt="shapes decending down stairwell"
+                  src="images/pacificDesignCenter.jpg"
+                />
               </a>
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe0e6e5fa1714404878/171440487845oogn.jpg">
-                <img alt="" src="images/americanRiverVortex.jpg" />
+                <img
+                  alt="distorted image with river wrapping around person in canoe"
+                  src="images/americanRiverVortex.jpg"
+                />
               </a>
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fbe395fb351714404921/17144049212akgko.jpg">
-                <img alt="" src="images/noOrdinaryMonkey.jpg" />
+                <img
+                  alt="dancer lit from behind by strobe light"
+                  src="images/noOrdinaryMonkey.jpg"
+                />
               </a>
               <a href="https://cdn0030.qrcodechimp.com/qr/PROD/662fbc9257136710286b5fb5/ga/662fc1d11b30f1714405841/1714405841h86s10.jpg">
-                <img alt="" src="images/hetal.jpg" />
+                <img
+                  alt="portrait of some woman named, hetal"
+                  src="images/hetal.jpg"
+                />
               </a>
             </section>
           </div>

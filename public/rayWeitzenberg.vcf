@@ -4,7 +4,7 @@ PRODID:-//Apple Inc.//macOS 14.5//EN
 N:Weitzenberg;Ray;;;
 FN:Ray Weitzenberg
 ORG:Mechaneyes;
-EMAIL;type=INTERNET;type=HOME;type=pref:ray@mechaneyes.com
+EMAIL;type=INTERNET;type=WORK;type=pref:ray@mechaneyes.com
 TEL;type=CELL;type=VOICE;type=pref:7186822628
 ADR;type=HOME;type=pref:;;394 Myrtle Ave #99;Brooklyn;NY;11205;
 item1.URL;type=pref:https://mechaneyes.com
@@ -13,10 +13,12 @@ item2.URL:https://bsky.app/profile/mechaneyes.bsky.social
 item2.X-ABLabel:Bluesky
 item3.URL:https://hypermute.com/@mechaneyes
 item3.X-ABLabel:Mastodon
-item4.URL:https://github.com/mechaneyes
-item4.X-ABLabel:GitHub
-item5.URL:https://www.instagram.com/mechaneyes
-item5.X-ABLabel:Insta
+item4.URL:https://hearincolor.tumblr.com/
+item4.X-ABLabel:Tumblr
+item5.URL:https://github.com/mechaneyes
+item5.X-ABLabel:GitHub
+item6.URL:https://www.instagram.com/mechaneyes
+item6.X-ABLabel:Insta
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAAkACQAAD/4QB0RXhpZgAATU0AKgAA
  AAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAA
  AAAACQAAAAAQAAAJAAAAABAAKgAgAEAAAAAQAAA+agAwAEAAAAAQAAA+YAAAAA/+0AOFBob3Rv

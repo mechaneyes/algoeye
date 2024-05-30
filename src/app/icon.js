@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 
-export const config = {
-  runtime: 'edge',
-};
+export const runtime = "edge";
 
 export default function Icon() {
   const emoji = "👁️"; // Choose your desired emoji here

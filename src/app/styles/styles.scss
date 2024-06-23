@@ -3,7 +3,7 @@
 @import "vcard";
 
 html {
-  font-size: 16px;
+//   font-size: 16px;
 }
 
 img {
@@ -17,7 +17,7 @@ img {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  margin: 4.5rem auto;
+  margin: 2.5rem auto 4.5rem;
 
   a {
     color: #5c85df;
@@ -31,8 +31,8 @@ img {
 
   p {
     margin-bottom: 1.5rem;
-    font-size: 1.125rem;
-    line-height: 1.625;
+    font-size: 1rem;
+    line-height: 1.75;
   }
 
   &--home {
@@ -69,7 +69,7 @@ img {
   }
 
   .hero {
-    width: 45vw;
+    width: 525px;
     margin-bottom: 4.5rem;
 
     h3 {

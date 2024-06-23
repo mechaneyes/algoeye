@@ -26,7 +26,7 @@ export default function Home() {
           <p>
             Rifiling through my stuff, the only thing I found was a harinet that
             was holding some other photo gear. This seamed like a stretch, but
-            at that point I didn't have anything to loose.
+            at that point I didn&apos;t have anything to loose.
           </p>
           <p>From that, Gossamer was born.</p>
         </div>

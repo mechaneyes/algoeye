@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ray Weitzenberg",
+  title: "NYSee",
   description: "Try to find me.",
   url: "https://nysee.nyc/",
   type: "website",
@@ -23,7 +23,7 @@ export const metadata = {
   },
   robots: "index, follow",
   keywords:
-    "Ray Weitzenberg, photographer, artist, technologist, new yorker, NYSEE, NYC",
+    "Ray Weitzenberg, photographer, artist, technologist, new yorker, NYSee, NYC, Sacto, Sacramento, ",
 };
 
 export default function RootLayout({ children }) {

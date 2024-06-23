@@ -3,6 +3,7 @@
 import Image from "next/image";
 
 import "@/app/styles/styles.scss";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -28,7 +29,10 @@ export default function Home() {
             was holding some other photo gear. This seamed like a stretch, but
             at that point I didn&apos;t have anything to loose.
           </p>
-          <p>From that, Gossamer was born.</p>
+          <p>And thus Gossamer was born.</p>
+          <Link href="https://winterwerk.one/posts/gossamer">
+            <p>Read more about Gossamer on WinterWerk</p>
+          </Link>
         </div>
       </div>
       <Image

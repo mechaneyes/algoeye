@@ -7,6 +7,7 @@
 
   img {
     max-width: 960px;
+    max-height: 80vh;
   }
 
   h2 {
@@ -39,7 +40,6 @@
       img {
         filter: invert(1);
         transition: filter 0.7s ease;
-        transform: translateZ(0);
       }
 
       .project__description h4 {
@@ -53,10 +53,11 @@
       width: 100%;
       height: auto;
       filter: invert(0);
+      transition: filter 0.7s ease;
+      transform: translateZ(0);
   
       &--gossamer {
         width: auto;
-        height: 80vh;
       }
     }
 

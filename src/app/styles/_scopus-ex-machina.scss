@@ -1,0 +1,41 @@
+.scopus-ex-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 8px 0;
+  background-color: rgb(80, 80, 80);
+//   background-color: black;
+
+  .rpv-core__inner-page {
+    // margin-top: 8px;
+    background-color: rgb(80, 80, 80);
+  }
+
+  .rpv-core__page-layer::after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .rpv-thumbnail__list-container {
+    height: auto;
+  }
+
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+
+    &--prev {
+      left: 1rem;
+      transform: rotate(180deg) translateY(50%);
+    }
+
+    &--next {
+      right: 1rem;
+      transform: rotate(0deg) translateY(-50%);
+    }
+  }
+}

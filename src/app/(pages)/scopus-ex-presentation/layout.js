@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 import "@/app/styles/globals.css";
 
@@ -27,9 +26,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="shortcut icon" href="/favicon.ico" />
-      </Head>
       <body>
         {children}
         <Analytics />

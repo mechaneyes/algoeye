@@ -1,17 +1,5 @@
 @import url("https://use.typekit.net/xgi8mni.css");
 
-@mixin glodok {
-  font-family: "glodok", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@mixin mobleySans {
-  font-family: "mobley-sans", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 @mixin mobleySerif {
   font-family: "mobley-serif", serif;
   font-weight: 400;
@@ -35,7 +23,9 @@ body {
 }
 
 h1 {
-  @include mobleySerif;
+  font-family: "mobley-serif", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 4rem;
 }
 

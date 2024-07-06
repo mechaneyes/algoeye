@@ -3,24 +3,24 @@ import "@/app/styles/globals.css";
 import "@/app/styles/styles.scss";
 
 export const metadata = {
-  title: "NYSee | Ray Weitzenberg",
-  description: "Art+Tech 24SS",
-  url: "https://nysee.nyc/",
+  title: "Algorithmic Eye",
+  description: "A Growing Web of Watchers",
+  url: "https://algorithmiceye.com/",
   type: "website",
-  images: "https://nysee.nyc/images/noOrdinaryMonkey.jpg",
+  images: "https://algorithmiceye.com/images/og-scopus-ex-machina.png",
   openGraph: {
-    images: "https://nysee.nyc/images/og-image.png",
+    images: "https://algorithmiceye.com/images/og-scopus-ex-machina.png",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@mechaneyes",
-    title: "NYSee | Ray Weitzenberg",
-    description: "Art+Tech 24SS",
-    image: "https://nysee.nyc/images/twitter-card.png",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   site: "@mechaneyes",
+  //   title: "Algorithmic Eye",
+  //   description: "A Growing Web of Watchers",
+  //   image: "https://algorithmiceye.com/images/twitter-card.png",
+  // },
   robots: "index, follow",
   keywords:
-    "Ray Weitzenberg, photographer, artist, technologist, new yorker, NYSee, NYC, Sacto, Sacramento, ",
+    "Algorithmic Eye, surveillance, facial recognition, zine, art, Ray Weitzenberg, photographer, artist, technologist, Brooklyn, NYC, ",
 };
 
 export default function RootLayout({ children }) {

@@ -8,9 +8,14 @@ export default function Home() {
     <div className="homepage">
       <div className="homepage__header">
         <h1>NYSee.nyc</h1>
-        <h2>Ray Weitzenberg</h2>
+
+        <Link href="/ray">
+          <h2>Ray Weitzenberg</h2>
+          <h4>@mechaneyes</h4>
+        </Link>
+
         <p>
-          NYSee collects projects I&apos;ve produced at RisoLAB during the
+          NYSee collects the projects I&apos;ve produced at RisoLAB during the
           summer of 2024.
         </p>
       </div>
@@ -25,8 +30,8 @@ export default function Home() {
             alt="Scopus Ex Machina Presentation Cover"
           />
           <div className="project__description">
-            <h4>Scopus Ex Machina: Initial Ideas Presentation</h4>
-            <h5>2024.07.01</h5>
+            <h2>Scopus Ex Machina: Initial Ideas Presentation</h2>
+            <p className="project__date">2024.07.01</p>
             <p>Scopus Ex Machina is my final project.</p>
             <p>
               I presented my initial thoughts on the project to the class via
@@ -45,12 +50,12 @@ export default function Home() {
             alt="No Ordinary Duotone printed image"
           />
           <div className="project__description">
-            <h4>No Ordinary Duotone</h4>
-            <h5>2024.06.25</h5>
+            <h2>No Ordinary Duotone</h2>
+            <p className="project__date">2024.06.25</p>
             <p>
               For this first duotone project, I used a photo I shot at the
-              wonderful No Ordinary Monkey !!! After Party many moons ago ... on
-              2005.09.16.
+              wonderful No Ordinary Monkey, which that night was the !!! After
+              Party. That was many moons ago ... on September 16, 2016.
             </p>
             <p>
               The only thing I added to the image was the separation then
@@ -71,8 +76,8 @@ export default function Home() {
             alt="Gossamer Poster 3.6.2"
           />
           <div className="project__description">
-            <h4>Single Sheet Zine: Gossamer</h4>
-            <h5>2024.06.21</h5>
+            <h2>Single Sheet Zine: Gossamer</h2>
+            <p className="project__date">2024.06.21</p>
           </div>
         </Link>
       </article>

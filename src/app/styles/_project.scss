@@ -4,10 +4,12 @@
   img {
     width: 100%;
     height: auto;
+    max-width: 960px;
   }
 
   .hero {
     &__copy {
+      width: 720px;
       padding: 2rem 0 3rem;
 
       &__title {
@@ -26,15 +28,16 @@
   }
 
   &__description {
+    width: 720px;
     padding-top: 1rem;
 
     h5 {
       padding-top: 0.25rem;
       color: #a8a8a8;
     }
-    
+
     &__title {
-        padding-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
     }
   }
 }

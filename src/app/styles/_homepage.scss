@@ -11,10 +11,6 @@
   }
 
   h2 {
-    padding-bottom: 0.5rem;
-  }
-
-  h4 {
     padding-bottom: 0.25rem;
     line-height: 1;
     text-decoration: underline;
@@ -24,13 +20,30 @@
     transition: color 0.3s ease, text-decoration 0.3s ease;
   }
 
-  h5 {
+  h4 {
     padding-bottom: 0.5rem;
     color: #a8a8a8;
+    font-weight: 300;
   }
 
   &__header {
     padding-bottom: 2rem;
+
+    a:hover {
+      h2 {
+        color: #00f3ff;
+        text-decoration-color: #00f3ff;
+        transition: color 0.3s ease, text-decoration 0.6s ease;
+      }
+    }
+
+    h2 {
+      padding: 0.5rem 0;
+    }
+
+    h4 {
+      padding-bottom: 0.5rem;
+    }
   }
 
   .project {
@@ -42,7 +55,7 @@
         transition: filter 0.7s ease;
       }
 
-      .project__description h4 {
+      .project__description h2 {
         color: #00f3ff;
         text-decoration-color: #00f3ff;
         transition: color 0.3s ease, text-decoration 0.6s ease;
@@ -55,14 +68,20 @@
       filter: invert(0);
       transition: filter 0.7s ease;
       transform: translateZ(0);
-  
+
       &--gossamer {
         width: auto;
       }
     }
 
     &__description {
+      width: 720px;
       padding-top: 1rem;
+    }
+
+    &__date {
+      padding: 0.25rem 0 0.5rem;
+      color: #a8a8a8;
     }
   }
 }

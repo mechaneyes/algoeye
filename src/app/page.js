@@ -38,19 +38,25 @@ export default function Home() {
       <article className="project">
         <Link href="/no-ordinary-duotone">
           <Image
-            src="/images/gossamer-poster-2.jpg"
+            src="/images/no-ordinary-duotone-001-1.1.0.jpg"
             width={1245}
             height={1920}
-            className="project__img project__img--gossamer"
+            className="project__img"
             alt="Gossamer Poster 3.6.2"
           />
           <div className="project__description">
-            <h4>Scopus Ex Machina: Initial Ideas Presentation</h4>
-            <h5>2024.07.01</h5>
-            <p>Scopus Ex Machina is my final project.</p>
+            <h4>No Ordinary Duotone</h4>
+            <h5>2024.06.25</h5>
             <p>
-              I presented my initial thoughts on the project to the class via
-              this slide deck.
+              For this first duotone project, I used a photo I shot at the
+              wonderful No Ordinary Monkey !!! After Party many moons ago ... on
+              2005.09.16.
+            </p>
+            <p>
+              The only thing I added to the image was the separation then
+              printing of the 2 layers, Mint and Sky Blue. The wild-ish effects
+              all happened in camera, leveraging a slightly longer shutter speed
+              to collect the subject lit from behind with a strobe.
             </p>
           </div>
         </Link>

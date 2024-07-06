@@ -5,11 +5,13 @@
   height: 100vh;
   padding: 8px 0;
   background-color: rgb(80, 80, 80);
-//   background-color: black;
 
   .rpv-core__inner-page {
-    // margin-top: 8px;
     background-color: rgb(80, 80, 80);
+  }
+
+  .rpv-core__viewer {
+    padding: 0 1.5rem;
   }
 
   .rpv-core__page-layer::after {
@@ -29,12 +31,12 @@
     z-index: 1;
 
     &--prev {
-      left: 1rem;
+      left: 0.5rem;
       transform: rotate(180deg) translateY(50%);
     }
 
     &--next {
-      right: 1rem;
+      right: 0.5rem;
       transform: rotate(0deg) translateY(-50%);
     }
   }

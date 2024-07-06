@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "@/app/styles/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "NYSee",
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
       </Head>
-      <body className={inter.className}>
+      <body>
         {children}
         <Analytics />
       </body>

@@ -12,6 +12,7 @@
 
   h2 {
     padding-bottom: 0.25rem;
+    font-weight: 300;
     line-height: 1;
     text-decoration: underline;
     text-decoration-thickness: 0.05em;
@@ -20,8 +21,7 @@
     transition: color 0.3s ease, text-decoration 0.3s ease;
   }
 
-  h4 {
-    padding-bottom: 0.5rem;
+  span {
     color: #a8a8a8;
     font-weight: 300;
   }
@@ -75,7 +75,7 @@
     }
 
     &__description {
-      width: 720px;
+      width: 640px;
       padding-top: 1rem;
     }
 

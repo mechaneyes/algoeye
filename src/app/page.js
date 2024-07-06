@@ -8,11 +8,12 @@ export default function Home() {
     <div className="homepage">
       <div className="homepage__header">
         <h1>Algorithmic Eye</h1>
+        <h2>A Growing Web of Watchers</h2>
         <Link href="/">
-          <h2>Ray Weitzenberg</h2>
-          <h4>@mechaneyes</h4>
+          <p>
+            Ray Weitzenberg &nbsp; <span>@mechaneyes</span>
+          </p>
         </Link>
-        <p>Algorithmic Eye</p>
       </div>
 
       <article className="project">
@@ -27,10 +28,13 @@ export default function Home() {
           <div className="project__description">
             <h2>Scopus Ex Machina: Initial Ideas Presentation</h2>
             <p className="project__date">2024.07.01</p>
-            <p>Scopus Ex Machina is my final project.</p>
             <p>
-              I presented my initial thoughts on the project to the class via
-              this slide deck.
+              Scopus Ex Machina is a zine investigating the surging surveillance
+              aparatus with sights trained squarely on you and me.
+            </p>
+            <p>
+              I presented my initial thoughts on the project at RisoLAB via this
+              slide deck.
             </p>
           </div>
         </Link>

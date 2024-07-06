@@ -1,7 +1,21 @@
-@mixin mobleySerif {
-  font-family: mobley-serif, serif;
-  font-weight: 400;
-  font-style: normal;
+@mixin vox($weight: 400, $style: normal) {
+  font-family: vox, sans-serif;
+  font-weight: $weight;
+  font-style: $style;
+
+  // Light
+  // font-weight: 300;
+
+  // Regular + Italic
+  // font-weight: 400;
+  // font-style: italic;
+
+  // Medium
+  // font-weight: 500;
+
+  // Bold + Bold Italic
+  // font-weight: 700;
+  // font-style: italic;
 }
 
 @mixin prometo($weight: 200) {
@@ -16,17 +30,30 @@
   //   font-style: italic;
 }
 
+@mixin fit {
+  font-family: fit, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin fit-wide {
+  font-family: "fit-wide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
 body {
-  @include prometo;
+  @include vox;
 }
 
 h1 {
-  @include mobleySerif;
-  font-size: 4rem;
+  @include fit-wide;
+  font-size: 8rem;
 }
 
 h2 {
-  @include prometo(400);
+  // font-weight: 300;
 }
 
 h4 {
@@ -40,6 +67,8 @@ h5 {
 }
 
 p {
-    padding-bottom: 0.5rem;
-    line-height: 1.375;
+  padding-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.375;
 }

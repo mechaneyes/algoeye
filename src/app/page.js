@@ -3,8 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import "@/app/styles/styles.scss";
-
 export default function Home() {
   return (
     <div className="homepage">
@@ -12,8 +10,8 @@ export default function Home() {
         <h1>NYSee.nyc</h1>
         <h2>Ray Weitzenberg</h2>
         <p>
-          NYSee collects projects I&apos;ve produced at RisoLAB during the summer of
-          2024.
+          NYSee collects projects I&apos;ve produced at RisoLAB during the
+          summer of 2024.
         </p>
       </div>
 
@@ -31,8 +29,8 @@ export default function Home() {
             <h5>2024.07.01</h5>
             <p>Scopus Ex Machina is my final project.</p>
             <p>
-              I presented my initial thoughts on it to the class via this slide
-              deck.
+              I presented my initial thoughts on the project to the class via
+              this slide deck.
             </p>
           </div>
         </Link>

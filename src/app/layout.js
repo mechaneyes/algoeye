@@ -1,9 +1,10 @@
 import { Analytics } from "@vercel/analytics/react";
 import "@/app/styles/globals.css";
+import "@/app/styles/styles.scss";
 
 export const metadata = {
-  title: "NYSee",
-  description: "Try to find me.",
+  title: "NYSee | Ray Weitzenberg",
+  description: "Art+Tech 24SS",
   url: "https://nysee.nyc/",
   type: "website",
   images: "https://nysee.nyc/images/noOrdinaryMonkey.jpg",
@@ -13,8 +14,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@mechaneyes",
-    title: "Ray Weitzenberg",
-    description: "Try to find me.",
+    title: "NYSee | Ray Weitzenberg",
+    description: "Art+Tech 24SS",
     image: "https://nysee.nyc/images/twitter-card.png",
   },
   robots: "index, follow",

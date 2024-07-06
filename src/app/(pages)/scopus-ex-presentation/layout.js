@@ -1,6 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
-import "@/app/styles/globals.css";
-
+import "@/app/styles/styles.scss";
 
 export const metadata = {
   title: "Present Ex Machina",

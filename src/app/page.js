@@ -15,16 +15,16 @@ export default function Home() {
         </p>
       </div>
 
-      <article className="homepage__article">
+      <article className="project">
         <Link href="/scopus-ex-presentation">
           <Image
             src="/images/scopus-ex-machina-presentation-cover.png"
             width={1920}
             height={1080}
-            className="homepage__img homepage__img--sem"
+            className="project__img project__img--sem"
             alt="Scopus Ex Machina Presentation Cover"
           />
-          <div className="link-description">
+          <div className="project__description">
             <h4>Scopus Ex Machina: Initial Ideas Presentation</h4>
             <h5>2024.07.01</h5>
             <p>Scopus Ex Machina is my final project.</p>
@@ -35,16 +35,36 @@ export default function Home() {
           </div>
         </Link>
       </article>
-      <article className="homepage__article">
+      <article className="project">
+        <Link href="/no-ordinary-duotone">
+          <Image
+            src="/images/gossamer-poster-2.jpg"
+            width={1245}
+            height={1920}
+            className="project__img project__img--gossamer"
+            alt="Gossamer Poster 3.6.2"
+          />
+          <div className="project__description">
+            <h4>Scopus Ex Machina: Initial Ideas Presentation</h4>
+            <h5>2024.07.01</h5>
+            <p>Scopus Ex Machina is my final project.</p>
+            <p>
+              I presented my initial thoughts on the project to the class via
+              this slide deck.
+            </p>
+          </div>
+        </Link>
+      </article>
+      <article className="project">
         <Link href="/gossamer">
           <Image
             src="/images/gossamer-poster-2.jpg"
             width={1245}
             height={1920}
-            className="homepage__img homepage__img--gossamer"
+            className="project__img project__img--gossamer"
             alt="Gossamer Poster 3.6.2"
           />
-          <div className="link-description">
+          <div className="project__description">
             <h4>Single Sheet Zine: Gossamer</h4>
             <h5>2024.06.21</h5>
           </div>

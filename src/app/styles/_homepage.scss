@@ -28,7 +28,7 @@
     padding-bottom: 2rem;
   }
 
-  &__article {
+  .project {
     padding-bottom: 6rem;
 
     a:hover {
@@ -38,26 +38,26 @@
         transform: translateZ(0);
       }
 
-      .link-description h4 {
+      .project__description h4 {
         color: #00f3ff;
         text-decoration-color: #00f3ff;
         transition: color 0.3s ease, text-decoration 0.6s ease;
       }
     }
-  }
 
-  &__img {
-    width: 100%;
-    height: auto;
-    filter: invert(0);
-
-    &--gossamer {
-      width: auto;
-      height: 80vh;
+    &__img {
+      width: 100%;
+      height: auto;
+      filter: invert(0);
+  
+      &--gossamer {
+        width: auto;
+        height: 80vh;
+      }
     }
-  }
 
-  .link-description {
-    padding-top: 1rem;
+    &__description {
+      padding-top: 1rem;
+    }
   }
 }

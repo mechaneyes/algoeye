@@ -39,10 +39,10 @@ export default function Home() {
         <Link href="/no-ordinary-duotone">
           <Image
             src="/images/no-ordinary-duotone-001-1.1.0.jpg"
-            width={1245}
-            height={1920}
+            width={1920}
+            height={1458}
             className="project__img"
-            alt="Gossamer Poster 3.6.2"
+            alt="No Ordinary Duotone printed image"
           />
           <div className="project__description">
             <h4>No Ordinary Duotone</h4>

@@ -1,9 +1,7 @@
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
 import "@/app/styles/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Present Ex Machina",
@@ -32,7 +30,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <body className={inter.className}>
+      <body>
         {children}
         <Analytics />
       </body>

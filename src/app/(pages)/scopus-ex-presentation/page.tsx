@@ -19,11 +19,7 @@ import "@react-pdf-viewer/page-navigation/lib/styles/index.css";
 import "@react-pdf-viewer/thumbnail/lib/styles/index.css";
 import "@/app/styles/styles.scss";
 
-interface MagazineExampleProps {
-  fileUrl: string;
-}
-
-const MagazineExample: React.FC<MagazineExampleProps> = ({ fileUrl }) => {
+const PdfExMachina: React.FC = () => {
   const pageNavigationPluginInstance = pageNavigationPlugin();
   const { jumpToNextPage, jumpToPreviousPage } = pageNavigationPluginInstance;
 
@@ -98,4 +94,4 @@ const MagazineExample: React.FC<MagazineExampleProps> = ({ fileUrl }) => {
   );
 };
 
-export default MagazineExample;
+export default PdfExMachina;

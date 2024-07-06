@@ -12,7 +12,7 @@ export default function Home() {
         <h1>NYSee.nyc</h1>
         <h2>Ray Weitzenberg</h2>
         <p>
-          NYSee collects projects I've produced at RisoLAB during the summer of
+          NYSee collects projects I&apos;ve produced at RisoLAB during the summer of
           2024.
         </p>
       </div>

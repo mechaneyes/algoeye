@@ -49,13 +49,17 @@
   .project {
     padding: 0 0 6rem;
 
+    h2 {
+      padding: 1rem 0 0.5rem;
+    }
+
     a:hover {
       img {
         filter: invert(1);
         transition: filter 0.7s ease;
       }
 
-      .project__description h2 {
+      h2 {
         color: #00f3ff;
         text-decoration-color: #00f3ff;
         transition: color 0.3s ease, text-decoration 0.6s ease;
@@ -76,7 +80,7 @@
 
     &__description {
       width: 640px;
-      padding-top: 1rem;
+      padding-top: 0;
     }
 
     &__date {

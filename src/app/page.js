@@ -25,19 +25,19 @@ export default function Home() {
             className="project__img project__img--sem"
             alt="Scopus Ex Machina Presentation Cover"
           />
-          <div className="project__description">
-            <h2>Scopus Ex Machina: Initial Ideas Presentation</h2>
-            <p className="project__date">2024.07.01</p>
-            <p>
-              Scopus Ex Machina is a zine investigating the surging surveillance
-              aparatus with sights trained squarely on you and me.
-            </p>
-            <p>
-              I presented my initial thoughts on the project at RisoLAB via this
-              slide deck.
-            </p>
-          </div>
+          <h2>Scopus Ex Machina: Initial Ideas Presentation</h2>
         </Link>
+        <div className="project__description">
+          <p className="project__date">2024.07.01</p>
+          <p>
+            Scopus Ex Machina is a zine investigating the surging surveillance
+            aparatus with its sights trained squarely on you and me.
+          </p>
+          <p>
+            I presented my initial thoughts on the project at RisoLAB via this
+            slide deck.
+          </p>
+        </div>
       </article>
     </div>
   );

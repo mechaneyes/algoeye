@@ -9,11 +9,6 @@ export default function Home() {
       <div className="homepage__header">
         <h1>Algorithmic Eye</h1>
         <h2>A Growing Web of Watchers</h2>
-        <Link href="/">
-          <p>
-            Ray Weitzenberg &nbsp; <span>@mechaneyes</span>
-          </p>
-        </Link>
       </div>
 
       <article className="project">

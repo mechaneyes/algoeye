@@ -5,7 +5,11 @@
 @import "typography";
 
 body > section {
-  padding: 2rem;
+  padding: 0 1rem;
+
+  @include bp("small") {
+    padding: 0 2rem 2rem;
+  }
 }
 
 nav {

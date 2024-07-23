@@ -1,5 +1,9 @@
 .project {
-  padding: 2rem;
+  padding: 0 1rem;
+
+  @include bp("small") {
+    padding: 0 2rem 2rem;
+  }
 
   img {
     width: 100%;
@@ -45,9 +49,16 @@
     padding: 2rem 0 3rem;
 
     img {
-      width: auto;
-      height: 80vh;
+      height: auto;
+      width: 100%;
+      max-height: 80vh;
       margin-bottom: 2rem;
+      aspect-ratio: 17 / 22;
+
+      @include bp("small") {
+        width: auto;
+        height: 100%;
+      }
     }
 
     .project__img {

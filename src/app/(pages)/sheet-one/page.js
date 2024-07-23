@@ -8,23 +8,30 @@ export default function Home() {
     <div className="page page--sheet-one">
       <div className="header header--sheet-one">
         <h1>Algoeye</h1>
-        <h2>A Growing Web of Watchers</h2>
+        <h2>A Guide to Digital Self-Defense</h2>
       </div>
 
       <article className="project project--sheet-one">
         <Image
+          src="/images/sheet-one-page-3.jpg"
+          width={695}
+          height={900}
+          className="project__img project__img--sheet-one-3"
+          alt="Draft for Algoeye One's Cover"
+        />
+        <Image
           src="/images/sheet-one-page-1.jpg"
-          width={1920}
-          height={1080}
+          width={695}
+          height={900}
           className="project__img project__img--sheet-one-1"
-          alt="Scopus Ex Machina Presentation Cover"
+          alt="Draft for Algoeye One's Cover"
         />
         <Image
           src="/images/sheet-one-page-2.jpg"
-          width={1920}
-          height={1080}
+          width={695}
+          height={900}
           className="project__img project__img--sheet-one-2"
-          alt="Scopus Ex Machina Presentation Cover"
+          alt="Draft for Algoeye One's Cover"
         />
       </article>
     </div>

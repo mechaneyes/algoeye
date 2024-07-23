@@ -40,4 +40,20 @@
       padding-bottom: 0.5rem;
     }
   }
+
+  &--sheet-one {
+    padding: 2rem 0 3rem;
+    
+    img {
+      width: auto;
+      height: 80vh;
+      margin-bottom: 2rem;
+    }
+
+    .project__img {
+      &--sheet-one-2 {
+        border: 1px solid #86ba4f;
+      }
+    }
+  }
 }

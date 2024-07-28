@@ -19,9 +19,37 @@ export default function Home() {
           className="project__img"
           alt="qr code for NYSee.nyc"
         />
-        <h2>Design+Color Study</h2>
+        <h2>Issue 0.5.0 Design+Color Study</h2>
         <div className="project__description project__description--no-date">
           <p>Experimenting for Issue 0.5.0</p>
+        </div>
+      </article>
+
+      <article className="project">
+        <Image
+          src="/images/issue0.5.0-just-cover-1920.jpg"
+          width={1280}
+          height={1920}
+          className="project__img project__img--6-9"
+          alt="Cover Study"
+        />
+        <h2>Business in the Front</h2>
+        <div className="project__description project__description--no-date">
+          <p>Needs work: Text sizing and placement.</p>
+        </div>
+      </article>
+
+      <article className="project">
+        <Image
+          src="/images/issue0.5.0-big-bro-1920.jpg"
+          width={1280}
+          height={1920}
+          className="project__img project__img--6-9"
+          alt="Big Brother is Watching You"
+        />
+        <h2>Party in the Back: Brotherly Love</h2>
+        <div className="project__description project__description--no-date">
+          <p>Halftone was an accident I&apos;m embracing.</p>
         </div>
       </article>
 

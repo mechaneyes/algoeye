@@ -84,11 +84,14 @@
       transform: translateZ(0);
 
       &--6-9 {
-        width: auto;
-        height: 100%;
-        max-width: 640px;
         // max-height: 60vh;
         aspect-ratio: 6 / 9;
+
+        @include bp("small") {
+          width: auto;
+          height: 100%;
+          max-width: 640px;
+        }
       }
     }
 

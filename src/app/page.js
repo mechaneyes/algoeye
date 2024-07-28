@@ -19,7 +19,7 @@ export default function Home() {
           className="project__img"
           alt="qr code for NYSee.nyc"
         />
-        <h2>Issue 0.5.0 Design+Color Study</h2>
+        <h2>Issue 0.5.0 Design Study</h2>
         <div className="project__description project__description--no-date">
           <p>Experimenting for Issue 0.5.0</p>
         </div>

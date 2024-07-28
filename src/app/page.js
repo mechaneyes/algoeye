@@ -7,9 +7,23 @@ export default function Home() {
   return (
     <div className="homepage">
       <div className="homepage__header">
-        <h1>Algorithmic Eye</h1>
-        <h2>A Growing Web of Watchers</h2>
+        <h1>Algoeye</h1>
+        <h2>Encrypted Resistance</h2>
       </div>
+
+      <article className="project">
+        <Image
+          src="/images/issue0.5.0-cover-1920.jpg"
+          width={1920}
+          height={1441}
+          className="project__img"
+          alt="qr code for NYSee.nyc"
+        />
+        <h2>Design+Color Study</h2>
+        <div className="project__description project__description--no-date">
+          <p>Experimenting for Issue 0.5.0</p>
+        </div>
+      </article>
 
       <article className="project">
         <Link href="/scopus-ex-presentation">

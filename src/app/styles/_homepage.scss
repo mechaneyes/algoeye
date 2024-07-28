@@ -3,9 +3,14 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
+  
+  @include bp("small") {
+    padding: 2rem 2rem 0 2rem;
+  }
 
   img {
+    width: 100%;
     max-width: 960px;
     max-height: 80vh;
   }
@@ -47,7 +52,12 @@
   }
 
   .project {
-    padding: 0 0 6rem;
+    width: 100%;
+    padding: 0 0 3rem;
+  
+    @include bp("small") {
+      padding: 0 0 6rem;
+    }
 
     h2 {
       padding: 1rem 0 0.5rem;

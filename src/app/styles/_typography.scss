@@ -50,6 +50,7 @@ body {
 h1 {
   @include fit-wide;
   font-size: 26.5vw;
+  line-height: 1;
 
   @include bp("small") {
     font-size: 8rem;

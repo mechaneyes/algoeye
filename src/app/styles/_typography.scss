@@ -71,8 +71,24 @@ h5 {
 }
 
 p {
-  padding-bottom: 0.5rem;
-  font-size: 1.125rem;
-  font-weight: 300;
-  line-height: 1.375;
+    padding-bottom: 0.75rem;
+    font-size: 1.125rem;
+    line-height: 1.375;
+}
+
+a {
+  color: #00f3ff;
+  text-decoration: underline;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 0.2em;
+
+  &:hover {
+    color: white;
+    text-decoration-color: white;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+}
+
+.italics {
+  font-style: italic;
 }
